@@ -1,14 +1,16 @@
 
 import './App.css'
+import Chart from './components/Chart/Chart'
 import NavBar from './components/NavBar/NavBar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
 
 function App() {
 
   return (
     <>
       <NavBar></NavBar>
-      <h1>Vite + React</h1>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <PriceOptions></PriceOptions>
+      <Chart></Chart>
     </>
   )
 }
